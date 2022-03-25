@@ -66,6 +66,10 @@
     <input type="email" placeholder="Digite seu email" class="box">
     <input type="password" placeholder="Criar senha" class="box">
     <input type="password" placeholder="Confirmar senha" class="box">
+    <select name="user-type" class="box">
+        <option value="Usuário">Usuário</option>
+        <option value="Administrador">Administrador</option>
+    </select>
 
     <input type="submit" value="Cadastrar" class="btn">
 </form>
