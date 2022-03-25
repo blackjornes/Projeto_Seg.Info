@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <?php @include 'header.php'; ?>
+    <?php include 'header.php'; ?>
     
-    <?php @include 'footer.php'; ?>
-
-    <script src="js/script.js"></script>
+    <?php include 'footer.php'; ?>
 </body>
+
+<script src="js/script.js"></script>
 </html>
