@@ -42,10 +42,11 @@
     <span class="btn cadastrar-btn">Cadastrar</span>
 </div>
 
-<form action="" class="entrar-form">
+<!-- Start Entrar -->
+<form action="" class="entrar-form ativo">
     <h3>Entrar</h3>
-    <input type="text" placeholder="Usuário" class="box">
-    <input type="password" placeholder="Senha" class="box">
+    <input type="email" placeholder="Digite seu email" class="box">
+    <input type="password" placeholder="Digite sua senha" class="box">
 
     <div class="flex">
         <input type="checkbox" name="" id="lembrar">
@@ -56,6 +57,19 @@
 
     <input type="submit" value="Entrar" class="btn">
 </form>
+<!-- End Entrar -->
+
+<!-- Start Cadastrar -->
+<form action="" class="cadastrar-form">
+    <h3>Cadastrar</h3>
+    <input type="text" placeholder="Digite seu nome" class="box">
+    <input type="email" placeholder="Digite seu email" class="box">
+    <input type="password" placeholder="Criar senha" class="box">
+    <input type="password" placeholder="Confirmar senha" class="box">
+
+    <input type="submit" value="Cadastrar" class="btn">
+</form>
+<!-- End Cadastrar -->
 
 </div>
 <!-- End Login/Cadastrar -->
