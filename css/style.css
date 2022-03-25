@@ -146,7 +146,7 @@ body{
 .conta-form{
     position: fixed;
     top: 0;
-    right: 0;
+    right: -105%;
     padding: 2rem;
     width: 35rem;
     background-color: var(--white);
@@ -155,18 +155,20 @@ body{
     gap: 2rem;
     justify-content: center;
     height: 100%;
-    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.6);
     z-index: 10;
     text-align: center;
+}
+.conta-form.ativo{
+    right: 0;
+    box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.6);
 }
 .conta-form #fechar-form{
     position: absolute;
     top: 1.5rem;
     right: 2.5rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     cursor: pointer;
     color: var(--dark-gray);
-    display: none;
 }
 .conta-form #fechar-form:hover{
     transform: rotate(90deg);
@@ -181,6 +183,10 @@ body{
 .conta-form form{
     border: var(--border1);
     padding: 2rem;
+    display: none;
+}
+.conta-form form.ativo{
+    display: block;
 }
 .conta-form form h3{
     font-weight: 500;
