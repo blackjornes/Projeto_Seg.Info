@@ -14,14 +14,15 @@
                 </li>
                 <li><a href="comprar.php">Comprar</a></li>
                 <li><a href="ordens.php">Ordens</a></li>
-                <li><a href="conta.php">Conta +</a>
-                        <ul>
-                            <li><a href="entrar.php">Entrar</a></li>
-                            <li><a href="cadastrar.php">Cadastrar</a></li>
-                            
-                        </ul>
-                </li>
             </ul>
+
+            <div class="icons">
+                <a href="procura.php" class="fas fa-search"></a>
+                <a href="desejos.php" class="fas fa-heart"><span>(00)</span></a>
+                <a href="carrinho.php" class="fas fa-shopping-cart"><span>(00)</span></a>
+                <div class="usuario-btn" class="fas fa-user"></div>
+                <div class="menu-btn" class="fas fa-bars"></div>
+            </div>
         </nav>
     </div>
 
