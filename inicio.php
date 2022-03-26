@@ -19,7 +19,7 @@
 <body>
     <?php include 'php/header.php'; ?>
     
-    <?php include 'footer.php'; ?>
+    <?php include 'php/footer.php'; ?>
 </body>
 
 <script src="js/script.js"></script>
