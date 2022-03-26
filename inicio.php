@@ -1,6 +1,4 @@
-<?php 
-    include 'php/conexao.php';
-?>
+<?php include 'php/conexao.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -18,7 +16,7 @@
 
 <body>
     <?php include 'php/header.php'; ?>
-    
+        
     <?php include 'php/footer.php'; ?>
 </body>
 
