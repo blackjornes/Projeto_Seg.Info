@@ -1,4 +1,3 @@
-<?php include 'config.php' ?>
 <header class="header">
 
     <div class="flex">
