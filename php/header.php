@@ -1,3 +1,4 @@
+<?php include 'config.php' ?>
 <header class="header">
 
     <div class="flex">
@@ -43,7 +44,7 @@
 </div>
 
 <!-- Start Entrar -->
-<form action="" class="entrar-form ativo">
+<form action="" method="POST" class="entrar-form ativo">
     <h3>Entrar</h3>
     <input type="email" placeholder="Digite seu email" class="box">
     <input type="password" placeholder="Digite sua senha" class="box">
@@ -55,7 +56,7 @@
         <a href="#">Esqueceu a senha?</a>
     </div>
 
-    <input type="submit" value="Entrar" class="btn">
+    <input type="submit" name="entrar" value="Entrar" class="btn">
 </form>
 <!-- End Entrar -->
 
