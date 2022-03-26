@@ -1,3 +1,17 @@
+// Navbar
+let menu = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('ativo');
+}
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('ativo');
+}
+
+
 // Entrar/ Cadastrar
 let cadastrarBtn = document.querySelector('.conta-form .cadastrar-btn');
 let entrarBtn = document.querySelector('.conta-form .entrar-btn');
