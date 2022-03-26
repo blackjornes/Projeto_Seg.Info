@@ -29,7 +29,7 @@ entrarBtn.onclick = () =>{
 };
 
 let contaForm = document.querySelector('.conta-form');
-document.querySelector('#acesso-btn').onclick = () =>{
+document.querySelector('#usuario-btn').onclick = () =>{
     contaForm.classList.add('ativo');
 };
 document.querySelector('#fechar-form').onclick = () =>{
